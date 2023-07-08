@@ -32,14 +32,13 @@
                 <executions>
                     <execution>
                         <id>prepare-agent</id>
-                        <phase>initialize</phase>
                         <goals>
-                            <goal>report</goal>
+                            <goal>prepare-agent</goal>
                         </goals>
                     </execution>
                     <execution>
                         <id>report</id>
-                        <phase>verify</phase>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>report</goal>
                         </goals>

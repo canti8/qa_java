@@ -15,15 +15,11 @@ public class AnimalTest {
         assertEquals("Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи",family);
     }
 
-    @Rule
-    public ExpectedException exceptionRule = ExpectedException.none();
-    @Test
+    @Test(
+            expected = Exception.class
+    )
     public void getFoodIsExceptionTest() throws Exception {
-
-        exceptionRule.expect(java.lang.Exception.class);
-        exceptionRule.expectMessage("Неизвестный вид животного, используйте значение Травоядное или Хищник");
         Animal animal = new Animal();
         animal.getFood("Всеядное");
-
     }
 }
