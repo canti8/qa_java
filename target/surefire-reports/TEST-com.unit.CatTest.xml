@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.unit.CatTest" time="0.2" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.unit.CatTest" time="0.336" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.5"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+8-LTS"/>
     <property name="sun.boot.library.path" value="/Users/antonaleksandrov/Library/Java/JavaVirtualMachines/corretto-11.0.17/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/antonaleksandrov/qa_java1"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/antonaleksandrov/IdeaProjects/qa_java"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/antonaleksandrov/qa_java1"/>
+    <property name="user.dir" value="/Users/antonaleksandrov/IdeaProjects/qa_java"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.unit.CatTest" name="getFoodTest" time="0.198"/>
+  <testcase classname="com.unit.CatTest" name="getFoodTest" time="0.332"/>
   <testcase classname="com.unit.CatTest" name="getSoundTest" time="0"/>
-  <testcase classname="com.unit.CatTest" name="getFoodVerifyTest" time="0.002"/>
+  <testcase classname="com.unit.CatTest" name="getFoodVerifyTest" time="0.004"/>
 </testsuite>
